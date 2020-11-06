@@ -9,24 +9,50 @@
     <h1><span>Actividad fase 3</span></h1>
 
 <header>
+
+    
+
 <section>
 <a href="unad.png" id="logo" target="_blank">Ovi Diseño Web</a>
 
 <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+<input type="checkbox" id="toggle-1">
 
     
 <nav>
 <ul>
-    <li><a href="inicio.html">Inicio</a></li>
+    <li><a href="index.html">Inicio</a></li>
     <li><a href="conceptos01.html">Conceptos</a></li>
     <li><a href="recursos01.html">Recursos</a></li>
     <li><a href="autoevaluacion01.html">Autoevaluación</a></li>
     <li><a href="autor.html">Autor</a></li>
 </ul>
+
 </nav>
+</section>
 </header>
 
-</section>
+
+
+<table class="content">
+
+    <tr>
+        <td>
+<nav>
+    <ul>
+        <li>
+            <li><a href="conceptos02.html">Conceptos 2</a></li>
+        </li> 
+  
+    </ul>
+</nav>
+        </td>     
+      
+    </tr>
+
+</table>
+
+       
 
 <table class="content">
 
@@ -34,33 +60,78 @@
         <td>
             <section id="conceptos01" >
                 <h2>Conceptos</h2>
-                <h3>HTML5</h3>
+                <h3>HTML5</h3><br>
                 <h4>Definición</h4>
                 <p>HTML 5 (HyperText Markup Language, versión 5) es la quinta revisión mayor del lenguaje básico de la World Wide Web, HTML.
                    HTML 5 especifica dos variantes de sintaxis para HTML: un «clásico» HTML (text/html), la variante conocida como  HTML5  
                    y una variante XHTMLconocida como sintaxis XHTML5 que deberá ser servida como XML (XHTML) (application/xhtml+xml).
                    1 Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo.</p> <br><br>
 
-                   <h4>Características</h4>
-                 <p>Hay que aclarar que HTML5 sigue en borrador y lo seguirá estando durante algunos años más.
+                <h4>Características</h4>
+                    <p>Hay que aclarar que HTML5 sigue en borrador y lo seguirá estando durante algunos años más.
                     El enfoque general ha cambiado bastante respecto a versiones anteriores de HTML, añadiendo semántica y accesibilidad implícitas,
                     especificando cada detalle y borrando cualquier ambigüedad. También se tiene en cuenta que muchas páginas web actuales son dinámicas,
                     pareciéndose más a aplicaciones que a documentos. Algo básico es que HTML5 está definido en base al DOM (la representación interna 
-                    de una web con la que trabaja un navegador), dejando de lado la representación "real", definiendo a la vez un estándar HTML y XHTML.</p>
+                    de una web con la que trabaja un navegador), dejando de lado la representación "real", definiendo a la vez un estándar HTML y XHTML.</p><br><br>
+
+               
+                <h4>Mejor estructura</h4> 
+                   <p> En HTML5 hay varios elementos que sirven para estructurar mejor una página web, estableciendo qué es cada sección, y reemplazando en muchas ocasiones a div.</p><br><br>
+                   <img src="html.jpg" alt="maquetación" aling="center">
+                   <h6><em>(“HTML5, estructura básica y elementos semánticos,” 2019)</em></h6>
+                    <br><br>
+
+                   <p> Estos son los elementos:</p><br>
+
+                    <h5>section</h5><p> representa una sección "general" dentro de un documento o aplicación, como un capítulo de un libro. Puede contener subsecciones y si lo acompañamos de h1-h6 podemos estructurar mejor toda la página.</p><br>
+
+                    <h5>article</h5> <p>representa un contenido independiente en un documento, el caso más claro son las entradas de un blog o las noticias de un periódico online. Así, dentro de la portada podremos tener varios artículos demarcados semánticamente, por lo que una herramienta puede extraerlos fácilmente.</p><br>
+
+                    <h5>aside</h5> <p>representa un contenido que está muy poco relacionado con el resto de la página, como una barra lateral. Esencial para delimitar el contenido "importante" del contenido "de apoyo", haciendo más caso al primero que al segundo.</p><br>
+
+                    <h5>header</h5><p> representa la cabecera de una sección, y es de suponer que se le dé más importancia que al resto, sobre todo si la sección es un artículo.</p><br>
+
+                    <h5>footer</h5><p> representa el pié de una sección, con información acerca de la página/sección que poco tiene que ver con el contenido de la página, como el autor, el copyright o el año.</p><br>
+
+                    <h5>nav </h5><p>representa una sección dedicada a la navegación entre el sitio, como la típica barra superior de los periódicos.</p><br><br>
+
+
+
+                <h4>Mejores formularios</h4> 
+                     <p>El elemento input ha sido ampliado y ahora permite todos estos tipos de datos:</p><br>
+
+
+                    <h6><em>datetime, datetime-local, date, month, week, time</em></h6><p> para que indicar una fecha/hora.</p><br>
+
+                    <h6><em>number</em></h6><p>que el usuario indique un número.</p><br>
+
+                    <h6><em>range</em></h6><p>para indicar un rango entre dos números.</p><br>
+
+                    <h6><em>email</em></h6><p>para indicar un correo electrónico.</p><br>
+
+                    <h6><em>url</em></h6><p>para indicar una dirección web.</p><br>
+
+                    <h6><em>search</em></h6><p>para indicar una búsqueda.</p><br>
+
+                    <h6><em>color</em></h6> <p>para indicar un color.</p><br>
+
+                    <h4>Novedades</h4> 
+                    <h5>1) El elemento "lienzo" o "Canvas"</h5> <p>Este elemento permitirá el renderizado de imágenes y gráficos sin ningún proceso intermedio. Al no depender de nada ni nadie para presentar esta clase de flexibilidad en una página web, las posibilidades tanto de diseño como de interactividad de los usuarios con la página que visitan es sencillamente enorme.</p><br>
+
+                    <h5>2) Caché para aplicaciones.</h5> <p>Aplicaciones web enteras pueden ser guardadas y utilizadas de forma local cuando no hay una conexión a Internet, al igual que toda la información que haya sido guardada o generada a través de dichas aplicaciones.</p><br> 
+
+                    <h5>3) Localización geográfica.</h5> <p>HTML 5 tendrá la capacidad de determinar con un alto grado de precisión la ubicación geográfica del usuario. Esto se haría principalmente en páginas que, a partir de la posición actual del usuario, pueden ofrecer diferentes clases de servicios relacionados con el área en cuestión</p><br> 
+
+                    <h5>4) "Operarios Web".</h5> <p>habilitan la posibilidad de realizar procesamiento paralelo en segundo plano, mientras que la página web mantiene su rendimiento intacto. Las páginas web siempre han demostrado cierta tendencia lineal a la hora de cargarse, pero con HTML 5, aquellas aplicaciones y sitios que dependan de una gran cantidad de código, podrán ejecutarse de forma más eficiente, y sin afectar el rendimiento del navegador.</p><br> 
+
+                    <h5>5) El elemento "Video".</h5> <p>Sin lugar a dudas, la mejora más importante que incorpora HTML 5, y la que más revuelo está provocando entre los medios. El elemento de vídeo incorporado en HTML 5 es la forma definitiva de rebelión, ya que se pueden reproducir vídeos en Internet y embeberlos en páginas sin la necesidad de un plugin.</p><br> 
                 </section>
-
-                <nav>
-                    <ul>
-                       
-                        <li><a href="conceptos02.html">Conceptos 2</a></li>
-                      
-                 
-                    </ul>
-                    </nav>
-
-
-</head>
-<body>
+               
+              
+                    <tr>
+                        <td>
+                            </table>
+                            <br><br><br><br>
   
 
 </body>
