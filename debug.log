@@ -1,2 +1,4 @@
 [1106/005617.298:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
 [1106/141627.517:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1127/185824.030:ERROR:settings.cc(325)] Settings version is not 1
+[1127/190824.039:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)

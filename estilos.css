@@ -36,7 +36,7 @@ input[type=checkbox], label{display:none;}
 .body h2{font-size:28px; font-weight:500; color:#005883; border-bottom:1px solid #f0b429; display:table; padding-bottom:14px; margin-bottom:10px;}
 .body h3{font-size:24px; font-weight:500; color:#F47920; border-bottom:1px solid #f0b429; display:table; padding-bottom:10px; margin-bottom:10px;}
 .body h4{font-size:20px; font-weight:500; color:#F47920; border-bottom:1px solid #f0b429; display:table; padding-bottom:8px; margin-bottom:10px;}
-.body h5{font-size:18px; font-weight:500; color:#   ; border-bottom:1px solid #f0b429; display:table; padding-bottom:8px; margin-bottom:10px;}
+.body h5{font-size:18px; font-weight:500; color:#F47920; border-bottom:1px solid #f0b429; display:table; padding-bottom:8px; margin-bottom:10px;}
 .body h6{font-size:14px; font-weight:500; color:#333333;}
 .body p{font-size:16px; line-height:22px; color:#808080; text-align:justify;}
 
@@ -50,7 +50,7 @@ input[type=checkbox], label{display:none;}
     #logo{padding:0px;}
     input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
     input[type=checkbox]:fous{background:none;}
-    label {float:right; padding:8px 0px; display:inline-block; cursor:pointer; }
+    label {float:right; padding:8px 0px; display:inline-block; cursor:pointer;}
     input[type=checkbox]:checked ~ nav {display:block;}
     
     nav{display:none; position:absolute; right:0px; top:53px; background-color:#005883; padding:0px; z-index:99;}
@@ -91,3 +91,25 @@ IMG.imgcenter{
     border:none;
     }
 
+    
+    .container-2 input#search{
+        width: 50px;
+        height: 50px;
+        background: #F47920;
+        border: none;
+        font-size: 10pt;
+        float: left;
+        color: #262626;
+        padding-left: 15px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        color: #fff;
+       
+        -webkit-transition: width .55s ease;
+        -moz-transition: width .55s ease;
+        -ms-transition: width .55s ease;
+        -o-transition: width .55s ease;
+        transition: width .55s ease;
+      }
+    
