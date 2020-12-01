@@ -92,24 +92,5 @@ IMG.imgcenter{
     }
 
     
-    .container-2 input#search{
-        width: 50px;
-        height: 50px;
-        background: #F47920;
-        border: none;
-        font-size: 10pt;
-        float: left;
-        color: #262626;
-        padding-left: 15px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
-        color: #fff;
-       
-        -webkit-transition: width .55s ease;
-        -moz-transition: width .55s ease;
-        -ms-transition: width .55s ease;
-        -o-transition: width .55s ease;
-        transition: width .55s ease;
-      }
+  
     
